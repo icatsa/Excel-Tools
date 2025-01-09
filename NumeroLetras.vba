@@ -88,7 +88,7 @@ Do
                 Numero = 0
     End Select
 Loop Until (Numero = 0)
-Letras = Letras & " " & Format(Decimales * 100, "00") & "/100 DOLARES"
+Letras = Letras & " " & Format(Decimales * 100, "00") & "/100"
 NUMERO_LETRAS = Letras
 End Function
 
